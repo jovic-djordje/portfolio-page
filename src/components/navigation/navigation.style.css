@@ -2,7 +2,8 @@
 
 .navigation {
   font-family: "Sansation";
-  background-color: #2f3542;
+  background-color: #e74c3c;
+  padding: 25px 0px;
 }
 
 .navigation-holder {
@@ -23,7 +24,7 @@
 
 .nav-links a {
   text-transform: uppercase;
-  color: #f1f1f1;
+  color: #ffffff;
   font-weight: 600;
   font-size: 20px;
 }
