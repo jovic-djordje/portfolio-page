@@ -1,0 +1,60 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Sansation";
+  background-color: #ffffff;
+}
+
+.about-section-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.fullname {
+  font-size: 30px;
+  color: #2d3436;
+}
+
+.fullname span {
+  text-transform: capitalize;
+  font-style: italic;
+  color: #e74c3c;
+}
+
+.list {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.list-item {
+  color: #2d3436;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.list-item::marker {
+  color: #e74c3c;
+}
+
+.about-btn {
+  font-family: inherit;
+  text-transform: uppercase;
+  background-color: #e74c3c;
+  color: #ffffff;
+}
