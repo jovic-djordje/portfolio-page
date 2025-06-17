@@ -16,7 +16,7 @@ const Home = () => {
           className="profile-pic"
         />
         <h1 className="home-heading">
-          Hi, I am <span>joseph bieber</span>
+          Hi, I am <span>đorđe jović</span>
         </h1>
         <p className="home-text">
           I am a frontend web developer. I can provide clean code and pixel
