@@ -1,0 +1,161 @@
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Sansation";
+  background-color: #ffffff;
+}
+
+.contact-heading {
+  color: #2d3436;
+  text-transform: uppercase;
+}
+
+.contact-section-holder {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.contact-info-holder {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  width: 100%;
+}
+
+.contact-info-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 480px;
+  width: 100%;
+  gap: 20px;
+}
+
+.contact-heading-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-info-heading {
+  text-transform: capitalize;
+  color: #2d3436;
+  font-size: 20px;
+}
+
+.contact-text {
+  color: #2d3436;
+  font-size: 17px;
+}
+
+.line {
+  width: 100px;
+  height: 5px;
+  background-color: #e74c3c;
+  border-radius: 10px;
+  opacity: 0.7;
+  align-self: flex-start;
+}
+
+.contact-info-carts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.info-cart {
+  width: 100%;
+  color: #ffffff;
+  background-color: #2d3436;
+  border-radius: 10px;
+  padding: 10px 0px;
+}
+
+.cart-info-width-holder {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon-holder {
+  width: 50px;
+  height: 50px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-title {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.num {
+  letter-spacing: 0.7px;
+  font-weight: 400;
+}
+
+.contact-form {
+  background-color: #2d3436;
+  border-radius: 10px;
+  padding: 20px 0px;
+  max-width: 480px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form-holder {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0px auto;
+  gap: 10px;
+}
+
+.input-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input {
+  padding: 10px 0px;
+  font-family: inherit;
+  text-indent: 10px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: none;
+  color: #2d3436git;
+}
+
+.contact-form-btn {
+  max-width: 150px;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #e74c3c;
+  margin-top: 15px;
+}
+
+.contact-form-btn:hover {
+  color: #2d3436;
+}
